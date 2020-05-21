@@ -42,7 +42,7 @@ We know we can build out a route with dynamic segments, so our first instinct mi
 # config/routes.rb
 
   get 'authors/:id/posts'
-  get 'authors/:id/posts/:post_id'
+  get 'authors/:id/posts/:post_id' 
 ```
 
 After adding those routes, let's load up our blog with `rails s` (don't forget to `rake db:seed`) and check it out by browsing to `/authors/1/posts`.
